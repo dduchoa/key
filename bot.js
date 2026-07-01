@@ -27,7 +27,7 @@ client.on(Events.InteractionCreate, async interaction => {
       new ButtonBuilder()
         .setLabel("MỞ MENU")
         .setStyle(ButtonStyle.Link)
-        .setURL("https://raw.githack.com/khanglovetiktok123-eng/key/main/index.html")
+        .setURL("https://raw.githack.com/dduchoa/key/blob/main/index.html")
     );
 
     await interaction.reply({
@@ -36,5 +36,7 @@ client.on(Events.InteractionCreate, async interaction => {
     });
   }
 });
+
+client.login(TOKEN);
 
 client.login(TOKEN);
